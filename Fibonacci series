@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+int a,b,c,i,n;
+a=0;
+b=1;
+printf("\n enter n for how many time genrate serice");
+scanf("%d",&n);
+printf("\n fibonacci serics\n");
+printf("%d%d%d,a,b");
+for(i=0;i<n;i++){
+c=a+b;
+a=b;
+b=c;
+printf("%d",c);
+}
+return 0;
+}
